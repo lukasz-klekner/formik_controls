@@ -10,9 +10,9 @@ function App() {
     <ChakraProvider>
       <div className='App'>
         {/* <FormikContainer /> */}
-        {/* <LoginForm /> */}
+        <LoginForm />
         {/* <RegistrationForm /> */}
-        <EnrollmentForm />
+        {/* <EnrollmentForm /> */}
       </div>
     </ChakraProvider>
   )
