@@ -2,7 +2,11 @@ import './App.css'
 import FormikContainer from './components/FormikContainer'
 
 function App() {
-  return <FormikContainer />
+  return (
+    <div className='App'>
+      <FormikContainer />
+    </div>
+  )
 }
 
 export default App
